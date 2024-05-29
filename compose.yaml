@@ -1,0 +1,9 @@
+services:
+  db:
+    container_name: postgres
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_USER=example
+    ports:
+      - 5432:5432

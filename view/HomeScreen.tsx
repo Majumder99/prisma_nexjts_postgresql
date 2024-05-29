@@ -54,7 +54,7 @@ const HomeScreen = () => {
             type="submit"
             className="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
           >
-            Add Task
+            Add Taskssssssssss
           </button>
         </div>
       </form>
@@ -66,12 +66,6 @@ const HomeScreen = () => {
             className="flex items-center justify-between p-4 border-b border-gray-200"
           >
             <span className="text-gray-800">{task.task}</span>
-            <button
-              onClick={() => console.log("Task Completed")}
-              className="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 rounded"
-            >
-              Complete
-            </button>
           </li>
         ))}
       </ul>
